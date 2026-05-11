@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richard Rodríguez | Plan de Vida</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#0f172a;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(rgba(15,23,42,.85),rgba(15,23,42,.85)),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+}
+
+header h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+header p{
+max-width:700px;
+font-size:18px;
+line-height:1.8;
+opacity:.9;
+}
+
+nav{
+position:sticky;
+top:0;
+background:#111827;
+padding:18px;
+text-align:center;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.4);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 12px;
+font-size:14px;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+section{
+margin-bottom:90px;
+}
+
+.section-title{
+font-size:35px;
+margin-bottom:25px;
+color:#38bdf8;
+text-align:center;
+}
+
+.section-text{
+line-height:1.9;
+text-align:center;
+max-width:900px;
+margin:auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:18px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(56,189,248,.2);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.card p,
+.card li{
+line-height:1.8;
+font-size:15px;
+}
+
+.card ul{
+margin-left:18px;
+margin-top:10px;
+}
+
+.highlight{
+background:linear-gradient(135deg,#2563eb,#38bdf8);
+padding:40px;
+border-radius:20px;
+line-height:2;
+}
+
+.highlight p{
+margin-bottom:10px;
+}
+
+.contact{
+background:#1e293b;
+padding:40px;
+border-radius:20px;
+max-width:700px;
+margin:auto;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,
+textarea{
+padding:14px;
+border:none;
+border-radius:10px;
+font-family:'Montserrat';
+background:#0f172a;
+color:white;
+}
+
+button{
+padding:14px;
+border:none;
+border-radius:10px;
+background:#38bdf8;
+color:#0f172a;
+font-weight:700;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+background:#0ea5e9;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:30px;
+font-size:14px;
+margin-top:50px;
+}
+
+@media(max-width:700px){
+
+header h1{
+font-size:38px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.section-title{
+font-size:28px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Richard Rodríguez</h1>
+
+<p>
+Plan de vida, liderazgo personal y desarrollo profesional enfocado en el crecimiento constante, el aprendizaje tecnológico y la construcción de objetivos claros para el futuro.
+</p>
+
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#mision">Misión</a>
+<a href="#vision">Visión</a>
+<a href="#foda">FODA</a>
+<a href="#smart">SMART</a>
+<a href="#relaciones">Relaciones</a>
+<a href="#reflexion">Reflexión</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+
+<section id="inicio">
+
+<h2 class="section-title">Introducción</h2>
+
+<p class="section-text">
+Este sitio web representa mi plan de vida y crecimiento personal. A través de diferentes secciones se muestran mis metas, fortalezas, visión profesional y las estrategias que me permitirán desarrollarme como una persona responsable, preparada y comprometida con el liderazgo y la innovación tecnológica.
+</p>
+
+</section>
+
+<section id="mision">
+
+<h2 class="section-title">Misión Personal</h2>
+
+<div class="highlight">
+
+<p><strong>Mi misión:</strong> desarrollarme profesionalmente en el área tecnológica utilizando mis conocimientos, habilidades y valores para crear soluciones innovadoras que ayuden a las personas.</p>
+
+<p><strong>Compromiso:</strong> mantener un aprendizaje constante y actuar con responsabilidad, ética y liderazgo.</p>
+
+</div>
+
+</section>
+
+<section id="vision">
+
+<h2 class="section-title">Visión Profesional</h2>
+
+<p class="section-text">
+Mi visión es convertirme en un profesionista capaz de liderar proyectos tecnológicos importantes, inspirando a otros mediante la creatividad, la innovación y el trabajo en equipo para generar un impacto positivo en la sociedad.
+</p>
+
+</section>
+
+<section id="foda">
+
+<h2 class="section-title">Análisis FODA Personal</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Fortalezas</h3>
+<ul>
+<li>Capacidad de aprendizaje</li>
+<li>Creatividad</li>
+<li>Responsabilidad</li>
+<li>Pensamiento lógico</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Oportunidades</h3>
+<ul>
+<li>Crecimiento tecnológico</li>
+<li>Acceso a cursos digitales</li>
+<li>Networking profesional</li>
+<li>Proyectos colaborativos</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Debilidades</h3>
+<ul>
+<li>Estrés bajo presión</li>
+<li>Perfeccionismo</li>
+<li>Inseguridad en decisiones</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Amenazas</h3>
+<ul>
+<li>Competencia profesional</li>
+<li>Distracciones digitales</li>
+<li>Cambios tecnológicos rápidos</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="smart">
+
+<h2 class="section-title">Objetivos SMART</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>1. Mejorar programación</h3>
+<p>Completar tres cursos avanzados de desarrollo web antes de finalizar el año.</p>
+</div>
+
+<div class="card">
+<h3>2. Fortalecer liderazgo</h3>
+<p>Participar activamente en proyectos colaborativos durante el semestre.</p>
+</div>
+
+<div class="card">
+<h3>3. Mejorar organización</h3>
+<p>Administrar tareas mediante una agenda digital diariamente.</p>
+</div>
+
+<div class="card">
+<h3>4. Desarrollar experiencia</h3>
+<p>Crear dos proyectos reales para fortalecer mi portafolio profesional.</p>
+</div>
+
+<div class="card">
+<h3>5. Mejorar salud física</h3>
+<p>Realizar ejercicio cuatro veces por semana durante seis meses.</p>
+</div>
+
+<div class="card">
+<h3>6. Mejorar inglés</h3>
+<p>Practicar inglés técnico diariamente durante un año.</p>
+</div>
+
+<div class="card">
+<h3>7. Expandir networking</h3>
+<p>Conectar con profesionales del área tecnológica en eventos y redes.</p>
+</div>
+
+<div class="card">
+<h3>8. Mantener equilibrio emocional</h3>
+<p>Dedicar tiempo semanalmente al descanso y actividades recreativas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="relaciones">
+
+<h2 class="section-title">Agenda de Relaciones Estratégicas</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Docentes</h3>
+<p>Mantener comunicación constante y buscar orientación académica.</p>
+</div>
+
+<div class="card">
+<h3>Compañeros</h3>
+<p>Fortalecer trabajo en equipo y colaboración en proyectos.</p>
+</div>
+
+<div class="card">
+<h3>Familia</h3>
+<p>Mantener apoyo emocional y buena comunicación.</p>
+</div>
+
+<div class="card">
+<h3>Profesionales tecnológicos</h3>
+<p>Participar en eventos y ampliar conexiones profesionales.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="reflexion">
+
+<h2 class="section-title">Reflexión Final del Curso</h2>
+
+<p class="section-text">
+Este curso me permitió comprender la importancia del liderazgo, el autoconocimiento y la planeación personal para construir un proyecto de vida sólido. A través de las actividades realizadas pude identificar fortalezas, áreas de mejora y metas importantes para mi desarrollo profesional y personal.
+<br><br>
+También comprendí que el crecimiento constante requiere disciplina, responsabilidad y compromiso. Finalmente, considero que este sitio web representa una herramienta útil para visualizar mis objetivos y mantenerme enfocado en mi futuro.
+</p>
+
+</section>
+
+<section id="contacto">
+
+<h2 class="section-title">Contacto</h2>
+
+<div class="contact">
+
+<form>
+
+<input type="text" placeholder="Nombre">
+
+<input type="email" placeholder="Correo electrónico">
+
+<textarea rows="5" placeholder="Mensaje"></textarea>
+
+<button type="submit">Enviar mensaje</button>
+
+</form>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+© 2026 Richard Rodríguez | Plan de vida y liderazgo personal
+</footer>
+
+</body>
+</html>
